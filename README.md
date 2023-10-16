@@ -32,7 +32,7 @@ Example execution with arguments:
 In the example, the user input indicates that in a single encounter 5 PRIESTS and 1 MAN IN LEATHER were killed and each
 survivor in the party was given 1176 experience points. (by default, the party size is assumed to be 6 - see usage)
 The output of the program shows that based on the experience points awarded the program has inferred that the 5
-PRIESTS were actually LVL 5 PREISTS, and the MAN IN LEATHER was actually a MASTER THIEF (and since there are 3
+PRIESTS were actually LVL 5 PRIESTS, and the MAN IN LEATHER was actually a MASTER THIEF (and since there are 3
 monster entities with name "MASTER THIEF" the suffix "(lo)" indicates that the lower level variety of master thief
 was what was involved.)
 

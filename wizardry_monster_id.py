@@ -44,7 +44,7 @@ Example execution with arguments:
 In the example, the user input indicates that in a single encounter 5 PRIESTS and 1 MAN IN LEATHER were killed and each
 survivor in the party was given 1176 experience points. (by default, the party size is assumed to be 6 - see usage)
 The output of the program shows that based on the experience points awarded the program has inferred that the 5
-PRIESTS were actually LVL 5 PREISTS, and the MAN IN LEATHER was actually a MASTER THIEF (and since there are 3
+PRIESTS were actually LVL 5 PRIESTS, and the MAN IN LEATHER was actually a MASTER THIEF (and since there are 3
 monster entities with name "MASTER THIEF" the suffix "(lo)" indicates that the lower level variety of master thief
 was what was involved.)
 
@@ -142,7 +142,7 @@ These somewhat ambiguous co-occurence relationships have been verified:
   - LVL 6 NINJA trigger MASTER THIEF (lo) [instead of (mid) or (hi)]
   - MASTER NINJA trigger LVL 7 MAGE (hi) [instead of (lo)/(sp)]
   - MASTER THIEF (mid) trigger ARCH MAGE (lo) [instead of (hi)]
-  - RAVER LORD trigger HIGH PREIST (hi) [instead of (lo) or (sp)]
+  - RAVER LORD trigger HIGH PRIEST (hi) [instead of (lo) or (sp)]
   - BORING BEETLE and GIANT SPIDER both trigger HUGE SPIDER ... and
         in particular, trigger the HUGE SPIDER which may trigger BORING BEETLE (not the one which may trigger SHADE)
 
